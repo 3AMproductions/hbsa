@@ -1,0 +1,287 @@
+/*********************************** body ***************************************/
+
+*{margin:0;padding:0;}
+
+html {
+	/* http://www.splintered.co.uk/experiments/49/ */
+	min-height: 100%;
+	margin-bottom: 1px;
+  color: #1A4F0A;
+  /* Following background for green background */
+  background: #485A5B url(images/background.gif) top left repeat-x;
+  /*Following background for red background */
+  background: #650A0A url(images/background.gif) top left repeat-x;
+}
+
+body {
+	position: relative;
+  padding-bottom: 10px;
+	text-align: center;
+	font-size: 69%;
+	font-family: "Trebuchet MS", "Century Gothic", "Verdana", "Lucida Grande", "Tahoma", "Lucida Sans Unicode", sans-serif;
+  background: url(images/header.gif) top center no-repeat;
+}
+
+#container {
+	position: relative;
+  margin: 0px auto 20px auto;
+  padding: 0px 0px 0px 0px;
+  width: 700px;
+  /*height: 458px;*/
+}
+
+
+/********************************* top elements *********************************/
+
+
+#header {
+	/*display: none;*/
+  height: 197px;
+}
+
+#nav, #nav02 {
+	list-style: none;
+	display: block;
+	font-size: 1.0em;
+  text-transform: uppercase;
+  /* Following background for green background */
+  background: #E0EEEF;
+  /* Following background for red background */
+  background: #5A6B6B;
+  padding: 4px;
+  border: 3px solid #333333;
+  margin: 12px 5px 0px 5px;
+}
+
+#nav li, #nav02 li {
+	margin-right: 0.5em;
+	display: inline;
+}
+
+#nav02 {
+  margin: 10px 5px 0px 5px;
+}
+
+
+/******************************** content sections ****************************/
+
+#content {
+	position: relative;
+	font-size: 1.0em;
+  padding: 15px 0px 0px 0px;
+}
+
+#content img {
+  float: left;
+  margin: 0px 8px 19px 5px;
+  border: 3px solid #333333;
+}
+
+#images {
+  float: left;
+  width: 50px;
+}
+
+#words {
+	position: relative;
+  background: #5A6B6B;
+  color: #EFEFEF;;
+  /*font-weight: bold;*/
+  padding: 10px 0px 0px 0px;
+  margin: 0px 5px 0px 35px;
+  border: 3px solid #333333;
+  height: 390px;
+  overflow: auto;
+}
+
+#words ul {
+  list-style-type: disc;
+  text-align: left;
+  margin: 0px 20px 10px 30px;
+  padding: 0px 10px 10px 10px;
+}
+
+#words li {
+  margin: 0px 0px 10px 0px;
+}
+
+#words ul.name {
+  list-style-type: none;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+#words ul.name li {
+  margin: 0px 0px 0px 0px;
+}
+
+p {
+	text-indent: 10px;
+  text-align: justify;
+  line-height: 1.5em;
+  margin: 0px 10px 15px 10px;
+  /*color: #EFEFEF;*/
+}
+
+.expand {
+	position: relative;
+	margin: -10px auto 5px auto;
+  padding: 3px 0px;
+  background: #333333;
+  color: #FFFFFF;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.left {
+	float: left;
+}
+
+#bottom {
+	color: #000000;
+  background: transparent;
+  margin: 0px 20px 0px 20px;
+	padding: 8px 0px 1px 0px;
+	text-align: right;
+  font-size: .8em;
+}
+
+
+/********************************* links ********************************/
+
+ul#nav a, ul#nav02 a, #bottom a {
+	text-decoration: none;
+  /* Following for green background */
+  color: #8EADAF;
+	background: #E0EEEF;
+  /*Following for red background */
+  color: #8EADAF;
+	background: #5A6B6B;
+	width: 100%;
+  padding: 2px;
+  line-height: .66em;
+  font-weight: bold;
+}
+
+ul#nav li a:hover, ul#nav li a:focus, ul#nav li a.location, ul#nav02 li a:hover, ul#nav02 li a:focus, ul#nav02 li a.location, #bottom a:hover, #bottom a:focus {
+  /* Following for green background */
+  background: #E0EEEF;
+  color: #3B4F4F;
+  /* Following for red background */
+  background: #5A6B6B;
+  color: #FFFFFF;
+  /*text-decoration: underline;*/
+}
+
+p a, ul a {
+	background: #5A6B6B;
+  color: #8EADAF;
+  text-decoration: underline;
+}
+
+p a:hover, p a:focus, ul a:hover, ul a:focus {
+	background: #5A6B6B;
+  color: #FFFFFF;
+}
+
+
+/********************************* form ********************************/
+
+form{
+	/* so that submit button is centered */
+  /*text-align: center;*/
+  width: 280px;
+  margin: 0px auto;
+}
+
+p.contact { text-align: center; width: 350px; margin: 10px auto; }
+
+fieldset {
+	border: none;
+	/*width: 400px;;*/
+  width: 100%;
+	padding: 0px 0px 20px 0px;
+  margin: 0px auto;
+}
+
+.clear { margin: 10px 0px; }
+
+fieldset legend {
+	font-size: 18px;
+  text-align: right;
+  margin: 0px 0px 6px 0px;
+}
+
+fieldset label {
+	text-align: left;
+  display: block;
+}
+
+fieldset input, fieldset textarea {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+
+#submit {
+	width: 80px;
+}
+
+
+
+/************************** header typestyles ***************************/
+
+h1
+{
+	display: none;
+
+	/*color: #FFFFFF;
+	background: #222222;
+	margin: -10px 0px 0px 0px;
+  padding: 0px 0px 10px 0px;
+	text-align: left;
+	font-size: 4em;
+	font-weight: normal;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Helvetica", "Century Gothic", sans-serif;*/
+  color: #FFFFFF;
+  background: url(images/rowecenter.jpg) top center no-repeat;
+  height: 260px;
+  text-align: center;
+}
+
+h2
+{
+  color: #FFFFFF;
+  background: transparent;
+  margin: 0px 10px 5px 5px;
+	text-decoration: none;
+  border-bottom: 1px solid #FFFFFF;	
+	text-align: right;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-family: "Trebuchet MS", "Tahoma", "Agency FB", "Helvetica", "Century Gothic", "Lucida Sans Unicode", sans-serif;
+}
+
+h3
+{
+  color: #FFFFFF;
+  background: transparent;
+  margin: 0px 0px 0px 10px;
+	text-decoration: none;
+	text-align: left;
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: "Trebuchet MS", "Tahoma", "Agency FB", "Helvetica", "Century Gothic", "Lucida Sans Unicode", sans-serif;
+}
+
+h4
+{
+  color: #FFFFFF;
+  background: transparent;
+  margin: 0px 0px 0px 20px;
+	text-decoration: underline;	
+	text-align: left;
+	font-size: 1.3em;
+	font-weight: normal;
+	font-family: "Trebuchet MS", "Tahoma", "Agency FB", "Helvetica", "Century Gothic", "Lucida Sans Unicode", sans-serif;
+}
